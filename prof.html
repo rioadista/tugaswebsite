@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - Horizon</title>
+    <link rel="stylesheet" href="prof.css">
+    <script src="https://kit.fontawesome.com/311752fd3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="img/logo.png" class="logo">
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="icon/search.svg">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="img/profile-1.jpeg">
+            </div>
+
+        </div>
+ <!------------ settings-menu --------------- -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile-1.jpeg">
+                    <div>
+                        <p>Croissant</p>
+                       <a href="home2.html">Home</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="icon/chat-dots.svg">
+                    <div>
+                        <p>Give Feedback</p>
+                       <a href="#">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="icon/settings.svg" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="icon/graph-up-arrow.svg" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="icon/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="icon/graph-up-arrow.svg" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="icon/logout.png" class="settings-icon">
+                    <a href="index.html">Logout <img src="icon/graph-up-arrow.svg" width="10px"></a>
+                </div>
+
+
+            </div>
+           
+        </div>
+
+    </nav>
+
+    <!-- ----profile page --------- -->
+
+<div class="profile-container">
+    <img src="img/croissant.jpeg" class="cover-img" width="1280" height="auto">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="img/profile-1.jpeg" class="pd-image">
+                <div>
+                    <h3>Croissant</h3>
+                    <h4>@croissant_</h4>
+                    <p>42.5k Followers</p>
+                    <img src="img/f5.png">
+                    <img src="img/f1.png">
+                    <img src="img/f2.png">
+                    <img src="img/f3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>About Me</h3>
+                <p class="intro-text">I Make Croissant For A Living And Help Others How To Bake :D</p>
+                <hr>
+                <ul>
+                    <li><img src="icon/youtube.png"> -Insert Link Here-</li>
+                    <li><img src="icon/instagram.png">-Insert Link Here-</li>
+                    <li><img src="icon/m2.png">-Insert Link Here-</li>
+                </ul>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="">All Photos</a>
+                </div>
+
+                <div class="photo-box">
+                    <div><img src="foto/cr1.jpg"></div>
+                    <div><img src="foto/cr2.jpg"></div>
+                    <div><img src="foto/cr3.jpg"></div>
+                    <div><img src="foto/cr4.jpg"></div>
+                    <div><img src="foto/kt1.jpg"></div>
+                    <div><img src="foto/b1.jpg"></div>
+                </div>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="">All Friends</a>
+                </div>
+                <p>5</p>
+                <div class="friends-box">
+                    <div><img src="img/f5.png"> <p>Lewis Hamilton</p></div>
+                    <div><img src="img/t1.png"> <p>De Bries</p></div>
+                    <div><img src="img/t2.png"> <p>M Verstappen</p></div>
+                    <div><img src="img/t3.png"> <p>Seb Vettel</p></div>
+                    <div><img src="img/t4.jpg"> <p>Goatifi</p></div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="plost-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="img/profile-1.jpeg">
+                    <div>
+                        <p>Croissant</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="icon/video.png"> Live Video</a>
+                        <a href="#"><img src="icon/image.png"> Photo/Video</a>
+                        <a href="#"><img src="icon/idea.png"> Feeling/Activity</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-1.jpeg">
+                        <div>
+                            <p>Croissant</p>
+                            <span>February 30 2023, 14:20pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p class="post-text">Subscribe to <span>@Trax XD</span> <a href="#"></a> <a href="#">#Tugas</a> </p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 1k</div>
+                        <div><img src="icon/chat-dots.svg"> 30</div>
+                        <div><img src="icon/share.svg"> 10</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-1.jpeg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-1.jpeg">
+                        <div>
+                            <p>Croissant</p>
+                            <span>February 31 2023, 14:20pm <b>PINNED</b></span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p class="post-text">My New Bakery Is On Construction Now Opening Soon</span> <a href="#">#bakery </a><a href="#">#construction</a></p>
+                <img src="foto/undc.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 4.3k</div>
+                        <div><img src="icon/chat-dots.svg"> 2.7k</div>
+                        <div><img src="icon/share.svg"> 120</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="fotoku2.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-1.jpeg">
+                        <div>
+                            <p>Croissant</p>
+                            <span>February 27 2023, 10.00am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p class="post-text">Found A Location For My New Bakery, I'll Post Another Update Soon <a href="#">#newshop</a></p>
+                <img src="foto/loc.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 7.7k</div>
+                        <div><img src="icon/chat-dots.svg"> 1.4k</div>
+                        <div><img src="icon/share.svg"> 120</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-1.jpeg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+    
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-1.jpeg">
+                        <div>
+                            <p>Croissant</p>
+                            <span>February 14 2023, 09.00am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p class="post-text">New Tutorial Go Check It Out!!! -Link Youtube- <a href="#">#croissant</a></p>
+                <img src="foto/cr3.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 5.7k</div>
+                        <div><img src="icon/chat-dots.svg"> 696</div>
+                        <div><img src="icon/share.svg"> 420</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="member-3.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-1.jpeg">
+                        <div>
+                            <p>Croissant</p>
+                            <span>January 25 2023, 13:20pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a> 
+                </div>
+                
+                <p class="post-text">Thinking About Opening A Bakery <a href="#">#showerthougts</a></p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icon/heart-fill.svg"> 3.6k</div>
+                        <div><img src="icon/chat-dots.svg"> 1.1k</div>
+                        <div><img src="icon/share.svg"> 24</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-1.jpeg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+          
+            </div>
+        </div>
+    </div>
+
+ </div>
+
+<script src="prof.js"></script>
+</body>
+</html>
